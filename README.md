@@ -12,12 +12,12 @@ Visit each venue’s detail page and extract structured information from the fir
 
 ## 📋 Extracted Fields
 
-- 🌐 **URL**  
-- 🏛️ **Venue Name**  
-- 📞 **Phone Number**  
-- ✨ **Venue Highlights**  
-- 👥 **Guest Capacity**  
-- 📍 **Address**
+-  **URL**  
+-  **Venue Name**  
+-  **Phone Number**  
+-  **Venue Highlights**  
+-  **Guest Capacity**  
+-  **Address**
 
 ---
 
