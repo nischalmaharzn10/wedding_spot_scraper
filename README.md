@@ -33,3 +33,8 @@ Scrape venue details from [Wedding Spot](https://www.wedding-spot.com/wedding-ve
 
 4. **Run the spider**
     - scrapy crawl wedding_venues -o venues.csv
+
+5. **Notes**
+   - The scraper uses Selenium to handle JavaScript-rendered pagination.
+   - It follows the "Next Page" button instead of hardcoding pagination.
+   - The project captures 5 pages of venue listings as mentioned in requirements.
