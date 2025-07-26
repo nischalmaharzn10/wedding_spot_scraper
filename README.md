@@ -32,20 +32,20 @@ Visit each venue’s detail page and extract structured information from the fir
 ## 🚀 Setup Instructions
 
 1. **Clone the repository**
-
-
-1. **Clone the repository**
    
 2. **Create a virtual env**
-    - python -m venv venv
-    - source venv/bin/activate   # on Linux/macOS
-    - venv\Scripts\activate      # on Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # on Linux/macOS
+   venv\Scripts\activate      # on Windows
    
 3. **Install dependencies**
-    - pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Run the spider**
-    - scrapy crawl wedding_venues -o venues.csv
+   ```bash
+   scrapy crawl wedding_venues -o venues.csv
 
 5. **Notes**
    - The scraper uses Selenium to handle JavaScript-rendered pagination.
